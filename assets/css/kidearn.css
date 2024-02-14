@@ -14275,6 +14275,13 @@ body.boxed-wrapper .page-wrapper {
   .mobile-form{
     display: block !important;
   }
+
+  .button-bootm img {
+    width: 138px !important;
+    position: absolute !important;
+    bottom: -25px !important;
+    right: 91px !important;
+}
 }
 .service-four__shape1 {
   position: absolute;
