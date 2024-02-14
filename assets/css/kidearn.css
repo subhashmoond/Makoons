@@ -10411,6 +10411,7 @@ body.megamenu-popup-active .mobile-nav__content {
 --------------------------------------------------------------*/
 .main-slider-one {
   position: relative;
+  top: 100px;
 }
 .main-slider-one__shape-top {
   z-index: 2;
@@ -14383,4 +14384,43 @@ body.boxed-wrapper .page-wrapper {
   background: var(--kidearn-secondary, #FFAA23);
   padding: 30px 20px;
   border-radius: 10px;
+}
+
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.button-bootm {
+  width: 100%;
+  /* display: none; */
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  /* transform: translate(-50%, -50%); */
+  /* background-color: #fff; */
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+  text-align: right;
+  z-index: 9999;
+}
+.button-bootm img{ 
+  width: 250px;
 }
