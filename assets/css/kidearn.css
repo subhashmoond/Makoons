@@ -12181,6 +12181,10 @@ body.megamenu-popup-active .mobile-nav__content {
 @media (max-width: 767px) {
   .about-four__image {
     padding-left: 0;
+    display: none;
+  }
+  .mobile-form{
+    display: block;
   }
 }
 .about-four__image__shape1 {
@@ -14268,6 +14272,9 @@ body.boxed-wrapper .page-wrapper {
   .service-four {
     padding: 80px 0;
   }
+  .mobile-form{
+    display: block !important;
+  }
 }
 .service-four__shape1 {
   position: absolute;
@@ -14419,8 +14426,25 @@ body.boxed-wrapper .page-wrapper {
   /* border: 1px solid #ccc; */
   /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
   text-align: right;
-  z-index: 9999;
+  z-index: 999;
 }
 .button-bootm img{ 
   width: 250px;
+}
+
+
+.close-button{
+  width: 100%;
+  position: static;
+  background: none;
+  border: none;
+  text-align: right;
+}
+.mobile-form{
+  display: none;
+  margin-top: 50px;
+}
+
+.mobile-form .sec-title__title {
+  padding: 20px 0px;
 }
