@@ -14378,7 +14378,7 @@ body.boxed-wrapper .page-wrapper {
 .banner-form{
   z-index: 99999;
   display: flow;
-  position: fixed;
+  position: relative;
   background: var(--kidearn-secondary, #FFAA23);
   padding: 30px 20px;
   border-radius: 10px;
