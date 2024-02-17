@@ -14276,6 +14276,10 @@ body.boxed-wrapper .page-wrapper {
     bottom: -25px !important;
     right: 91px !important;
 }
+
+.w-button-bootm img{
+  width: 50px;
+}
 }
 .service-four__shape1 {
   position: absolute;
@@ -14444,7 +14448,7 @@ body.boxed-wrapper .page-wrapper {
   z-index: 999;
 }
 .w-button-bootm img{ 
-  width: 150px;
+  width: 100px;
 }
 
 .close-button{
