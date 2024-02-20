@@ -151,3 +151,10 @@
 .icon-trophy1:before {
   content: "\e926";
 }
+.cl6 .gallery-one__card--mt140{
+  margin-top: 10px !important;
+}
+
+.cl5 .gallery-one__card--mt70{
+  margin-top: 10px !important;
+}
