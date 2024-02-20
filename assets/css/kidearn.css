@@ -14280,6 +14280,12 @@ body.boxed-wrapper .page-wrapper {
 .w-button-bootm img{
   width: 50px;
 }
+
+.popup{
+  width: 88% !important;
+}
+
+
 }
 .service-four__shape1 {
   position: absolute;
