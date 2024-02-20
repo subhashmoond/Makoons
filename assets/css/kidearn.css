@@ -14284,7 +14284,13 @@ body.boxed-wrapper .page-wrapper {
 .popup{
   width: 88% !important;
 }
+.w-button-bootm img {
+  width: 79px !important;
+}
 
+.w-button-bootm{
+  bottom: -15px !important;
+}
 
 }
 .service-four__shape1 {
